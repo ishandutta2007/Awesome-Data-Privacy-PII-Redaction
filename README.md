@@ -30,6 +30,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,25 +41,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+### Sector Overview & Market Dynamics
+
+The global Data Security Posture Management (DSPM) and data privacy software market is estimated between **$1.1B and $2.5B**, expanding rapidly toward tens of billions at an estimated 25–31% CAGR driven by generative AI adoption and stringent global privacy mandates. The market is **moderately concentrated**: while specialized redaction point solutions create initial fragmentation, enterprise procurement is dominated by a concentrated core of cybersecurity and data governance heavyweights consolidating DSPM, identity security, and privacy vault capabilities.
+
 ## SaaS/Hosted Platforms
 
+| Product | Company Size / Valuation | Pricing | Free Tier Limits | Key Capabilities & Best For |
+|---|---|---|---|---|
+| **CyberArk** | ~$20.6B Market Cap (NASDAQ: CYBR) | From ~$2,400–$4,800/privileged user/yr; Endpoint Privilege Manager from $30/endpoint/yr; secrets manager from $40/workload identity/yr (~$25,000/yr typical minimum contract) | 30-day proof-of-concept / evaluation trial via sales engagement (no permanent free tier) | Enterprise identity security, privileged access management, secret governance, and data boundary protection across hybrid cloud infrastructure. |
+| **Varonis** | ~$5.6B Market Cap (NASDAQ: VRNS) | From ~$55–$140/user/yr (typical entry enterprise contracts start around $15,000–$25,000/yr) | 30-day free trial with complimentary automated Data Risk Assessment scan (no permanent free tier) | Automated data security posture management (DSPM), data classification, access governance, and threat detection without charging per GB of data volume. |
+| **OneTrust** | ~$4.5B Valuation (Private, $1B+ raised) | From ~$10,000/yr minimum baseline for single-module entry tiers (e.g., CMP or Privacy Automation) | No permanent free tier; time-limited 14-day sales evaluation trial with sandbox access (free standalone tools limited to basic cookie banner generator) | Comprehensive enterprise privacy automation, consent management, data inventory mapping, and AI governance. |
+| **Securiti.ai** | $1.725B (Acquired by Veeam Software) | From ~$20,000/yr minimum annual commitment for entry-level modular DSPM / Privacy packages | Customized 14-day guided proof-of-concept (PoC) trial (no permanent free tier; free tier limited to basic cookie consent script) | Unified DataAI Command Platform providing DSPM, contextual sensitive data discovery, access intelligence, and safe AI pipeline redaction. |
+| **BigID** | ~$1.2B Valuation (Private, Series E) | From ~$25,000/yr baseline starting contract for BigID Express / sensitive data discovery packages | Customized 14-to-30-day Proof of Concept (PoC) evaluation via sales / AWS Marketplace (no permanent self-serve free tier) | Deep data discovery, classification, and DSPM across unstructured data lakes, structured databases, and AI pipelines. |
+| **Immuta** | ~$1.0B Valuation (Private, Series E) | From ~$30,000/yr baseline for enterprise data access control & dynamic masking tiers | Immuta Professional no-cost tier available via AWS Marketplace supporting up to 4 users; 14-day cloud evaluation trial | Cloud data access control, policy-driven dynamic data masking, format-preserving pseudonymization, and audit logging. |
+| **Protegrity** | ~$400M Valuation / ~$100M+ Rev | Custom enterprise licensing starting around ~$100,000–$300,000/yr depending on data volume & environments | Custom sales-provisioned sandbox evaluation trial (typically 14–30 days under NDA; no permanent free tier) | Enterprise data-centric protection, format-preserving encryption (FPE), tokenization, and high-performance redaction for large data lakes. |
+| **Nightfall AI** | ~$200M Valuation (Series B, $60M raised) | From $4/user/mo for basic SaaS add-ons; Developer API pay-as-you-go from $0.003/scan; enterprise DLP custom quotes | Free Developer Tier forever: 3 GB of uncompressed data scanned per month with API access to core PII/secret detectors; 7-day enterprise Proof of Value (POV) | AI-native DLP with Scan & Workflow APIs, browser extension sanitizing prompts for ChatGPT/Claude/Copilot, and sub-100ms latency. |
+| **Skyflow** | ~$150M Valuation (Series B, $100M+ raised) | From ~$195,000/yr average contract value (ACV) on AWS Marketplace / enterprise private offers | Custom sales-led Proof of Concept (PoC) trial with test sandbox credentials (no permanent self-serve free tier) | Patented polymorphic encryption and privacy vault with re-identification Vault Tokens, Detect API for audio/text/images, and Snowflake Native App. |
+| **Privacera** | ~$150M Valuation (Series B, $63M+ raised) | From ~$25,000/yr baseline for PrivaceraCloud access governance packages | 30-day free trial of PrivaceraCloud and Trust3 AI evaluation environment | Apache Ranger-based unified data governance, fine-grained access control, and privacy sanitization across multi-cloud environments. |
+| **TrustBoost PII** | Seed / Emerging (<$10M Valuation) | From $0.01 USDC per call (`/sanitize/quick`) or 149 USDC for 10,000 sanitizations | Free Forever: 3 free previews per IP; 50 free full sanitizations using `tx_hash="TRIAL"` without credit card or wallet requirement | Agent-native PII sanitization API with multilingual semantic detection (LATAM identifiers), fail-closed security, and Solana on-chain audit proof. |
 
-
-- **Skyflow**  
-
-  **Data privacy vault built for isolating, protecting, and governing sensitive data** . Features **patented polymorphic encryption and tokenization**—data is encrypted using multiple schemes, allowing **aggregation and comparison on encrypted data without decryption** . **Detect API** analyzes **text, audio, and images** for PII, PHI, and PCI with **dedicated file-type endpoints** (PDFs with density/resolution optimization, audio with bleep frequency control, images with privacy transformations) . **Fine-grained token types**: **Vault Tokens** for re-identification (inference apps) vs. **Entity-Only Tokens** for one-way anonymization (model training) . **Data residency** compliance for GDPR, DPDP, PIPL . **Snowflake Native App** available in the Snowflake Marketplace for quick deployment . **Best for**: organizations needing a governed privacy vault with **re-identification capabilities** for production AI applications.
-
-
-
-- **Nightfall AI**  
-
-  **AI-native data loss prevention (DLP)** with **Scan and Workflow APIs** for developers . **Detects PII, PHI, PCI, banking information, API keys, passwords, and network information** across **text, documents, spreadsheets, logs, zips, and images** . **Precision and recall rates of 95%+**, handles **over 1K requests per second**, and **latency under 100 ms** . **Customizable redaction** per entity type, with **minimum confidence thresholds** and **context/exclusion rules** to reduce false positives . **Browser extension** monitors and redacts sensitive data before submission to **ChatGPT, DeepSeek, Copilot, Gemini, Grok, Perplexity, Claude** . **Best for**: teams wanting **API-first DLP** with high throughput and browser-level protection.
-
-
-
-- **BigID, Privacera, Immuta, Securiti.ai, OneTrust, Protegrity, CyberArk, Varonis**  
-
-  Enterprise data security and governance platforms with **data discovery, classification, access control, and compliance** capabilities. These tools provide **broader data security posture management (DSPM)** beyond prompt-level redaction—covering data at rest, in motion, and across cloud environments. **Best for**: large enterprises needing **comprehensive data governance** rather than just LLM prompt sanitization.
 
 
 
