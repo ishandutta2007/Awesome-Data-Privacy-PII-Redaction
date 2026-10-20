@@ -182,7 +182,7 @@ Contributions are warmly welcomed! Help keep this curated list comprehensive and
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-tool`).
 3. 📝 **Add your entry** to the appropriate section following the established format:
    - Tool name & repository/official link
-   - GitHub stars badge (`style=social&color=white`) linking to the stargazers page
+   - GitHub_Stars_Badge (`style=social&color=white`) linking to the stargazers page
    - Concise capability summary & target use case
 4. 🚀 **Submit a Pull Request** with a brief rationale.
 
